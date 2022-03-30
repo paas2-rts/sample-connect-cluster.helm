@@ -1,0 +1,6 @@
+dependencies:
+- name: connect-cluster-base
+  repository: https://paas2-rts.github.io/rts-helm-charts/
+  version: 1.0.1
+digest: sha256:41228de0516b661e0eb5ca5b861c330f7da8d204a8f2270847f75131bcfc5a1b
+generated: "2022-03-30T22:09:48.709736+04:00"
