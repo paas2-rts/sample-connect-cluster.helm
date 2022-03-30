@@ -1,0 +1,12 @@
+apiVersion: kafka.strimzi.io/v1beta2
+kind: KafkaConnector
+metadata:
+  name: echo-sink-connector
+  labels:
+    strimzi.io/cluster: {{ include "connect.fullname" . }}
+spec:
+  class: EchoSink
+  tasksMax: 1
+  config:
+    level: "INFO"
+    topics: "output"
