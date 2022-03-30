@@ -1,2 +1,3 @@
 global:
   image: gimral/connect:1.0.1
+  bootstrapServers: kafka-cp-kafka.kafka.svc.cluster.local:9092
