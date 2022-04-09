@@ -1,6 +1,6 @@
 global:
   image: gimral/connect:1.0.1
-  bootstrapServers: kafka-cp-kafka.kafka.svc.cluster.local:9092
+  bootstrapServers: kafka-1-headless.kafka.svc.cluster.local:9092
   config:
     key.converter: org.apache.kafka.connect.storage.StringConverter
     value.converter: org.apache.kafka.connect.storage.StringConverter
